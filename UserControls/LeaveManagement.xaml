@@ -1,0 +1,515 @@
+﻿<UserControl x:Class="Employee_Management_System.UserControls.LeaveManagement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:Employee_Management_System.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1000"
+             Background="#0F172A">
+
+    <UserControl.Resources>
+        <!-- Primary Button Style -->
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Background" Value="#3B82F6"/>
+            <Setter Property="Foreground" Value="#F8FAFC"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="12,8"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="6"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#2563EB"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Success Button Style -->
+        <Style x:Key="SuccessButton" TargetType="Button" BasedOn="{StaticResource PrimaryButton}">
+            <Setter Property="Background" Value="#10B981"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#059669"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Warning Button Style -->
+        <Style x:Key="WarningButton" TargetType="Button" BasedOn="{StaticResource PrimaryButton}">
+            <Setter Property="Background" Value="#F59E0B"/>
+            <Setter Property="Foreground" Value="#0F172A"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#D97706"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- ComboBox Style -->
+        <Style x:Key="DarkComboBox" TargetType="ComboBox">
+            <Setter Property="Background" Value="#1E293B"/>
+            <Setter Property="Foreground" Value="#0F172A"/>
+            <Setter Property="BorderBrush" Value="#475569"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="8,6"/>
+        </Style>
+
+        <!-- ComboBoxItem Style -->
+        <Style TargetType="ComboBoxItem">
+            <Setter Property="Background" Value="#1E293B"/>
+            <Setter Property="Foreground" Value="#F8FAFC"/>
+            <Setter Property="Padding" Value="8,6"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#475569"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#334155"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- TextBox Style -->
+        <Style x:Key="DarkTextBox" TargetType="TextBox">
+            <Setter Property="Background" Value="#1E293B"/>
+            <Setter Property="Foreground" Value="#F8FAFC"/>
+            <Setter Property="BorderBrush" Value="#475569"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="8,6"/>
+            <Setter Property="CaretBrush" Value="#F8FAFC"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderBrush" Value="#3B82F6"/>
+                </Trigger>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#3B82F6"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- RadioButton Style -->
+        <Style x:Key="DarkRadioButton" TargetType="RadioButton">
+            <Setter Property="Foreground" Value="#F8FAFC"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <!-- DataGrid Styles -->
+        <Style x:Key="ColumnHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#334155"/>
+            <Setter Property="Foreground" Value="#F8FAFC"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="BorderBrush" Value="#475569"/>
+            <Setter Property="BorderThickness" Value="0,0,1,2"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        </Style>
+
+        <Style x:Key="CellStyle" TargetType="DataGridCell">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DataGridCell">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Padding="10,0">
+                            <ContentPresenter VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#475569"/>
+                    <Setter Property="Foreground" Value="#F8FAFC"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="RowStyle" TargetType="DataGridRow">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#F8FAFC"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#475569"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#475569"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <!-- Custom Dark ScrollBar Style -->
+        <Style TargetType="ScrollBar" x:Key="DarkScrollBar">
+            <Setter Property="Width" Value="10"/>
+            <Setter Property="Background" Value="#1E293B"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ScrollBar">
+                        <Grid Background="{TemplateBinding Background}">
+                            <Track Name="PART_Track" 
+                           IsDirectionReversed="true"
+                           Focusable="false">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Style="{x:Null}" IsEnabled="False" Height="0" />
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Style="{x:Null}" IsEnabled="False" Height="0" />
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb>
+                                        <Thumb.Template>
+                                            <ControlTemplate TargetType="Thumb">
+                                                <Border Background="#3B82F6"
+                        BorderBrush="#60A5FA"
+                        BorderThickness="1"
+                        CornerRadius="4"/>
+                                            </ControlTemplate>
+                                        </Thumb.Template>
+                                    </Thumb>
+                                </Track.Thumb>
+
+                            </Track>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid Margin="7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="2.5*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <!-- Leave Management Header -->
+        <Border
+    Grid.Row="0"
+    Margin="0,0,0,15"
+    CornerRadius="8" Padding="10">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0" Color="#1E3A8A" />
+                    <GradientStop Offset="0.5" Color="#3B82F6" />
+                    <GradientStop Offset="1" Color="#06B6D4" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <Border.Effect>
+                <DropShadowEffect
+            BlurRadius="20"
+            Direction="270"
+            Opacity="0.5"
+            ShadowDepth="6"
+            Color="Black" />
+            </Border.Effect>
+
+            <Grid Margin="36,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Header Title -->
+                <TextBlock
+            Grid.Column="0"
+            FontSize="32"
+            FontWeight="Bold"
+            Foreground="#F8FAFC"
+            Text="Leave Management"
+            VerticalAlignment="Center" />
+
+                <!-- Current Date -->
+                <TextBlock
+            Grid.Column="1"
+            FontSize="15"
+            Foreground="#F8FAFC"
+            Opacity="0.9"
+            VerticalAlignment="Center"
+            Text="{Binding CurrentDate}" />
+            </Grid>
+        </Border>
+
+
+        <!-- Filter Section -->
+        <Border Grid.Row="1" 
+                Background="#1E293B" 
+                BorderBrush="#475569" 
+                BorderThickness="1" 
+                CornerRadius="8" 
+                Padding="15"
+                Margin="0,0,0,15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" 
+                           Text="Status:" 
+                           VerticalAlignment="Center" 
+                           Margin="0,0,10,0"
+                           Foreground="#CBD5E1"
+                           FontSize="13"/>
+                <ComboBox Grid.Column="1" 
+                          Width="120" 
+                          ItemsSource="{Binding StatusFilters}" 
+                          SelectedItem="{Binding SelectedStatusFilter}" 
+                          Style="{StaticResource DarkComboBox}"
+                          Margin="0,0,20,0"/>
+
+                <TextBlock Grid.Column="2" 
+                           Text="Employee:" 
+                           VerticalAlignment="Center" 
+                           Margin="0,0,10,0"
+                           Foreground="#CBD5E1"
+                           FontSize="13"/>
+                <ComboBox Grid.Column="3" 
+                          Width="150" 
+                          ItemsSource="{Binding Employees}" 
+                          DisplayMemberPath="FullName" 
+                          SelectedValuePath="EmployeeId" 
+                          SelectedValue="{Binding SelectedEmployeeFilter}" 
+                          Style="{StaticResource DarkComboBox}"
+                          Margin="0,0,20,0"/>
+
+                <Button Grid.Column="4" 
+                        Content="Filter" 
+                        Width="80" 
+                        Command="{Binding FilterCommand}" 
+                        Style="{StaticResource PrimaryButton}"
+                        HorizontalAlignment="Left"/>
+
+                <Button Grid.Column="6" 
+                        Width="130"
+                        Command="{Binding ViewPendingCommand}"
+                        Style="{StaticResource WarningButton}"
+                        Margin="0,0,10,0">
+                    <Button.Content>
+                        <TextBlock>
+                            <Run Text="View Pending: "/>
+                            <Run Text="{Binding PendingCount, Mode=OneWay}"/>
+                        </TextBlock>
+                    </Button.Content>
+                </Button>
+
+                <Button Grid.Column="7" 
+                        Content="Apply Leave" 
+                        Width="100" 
+                        Command="{Binding ApplyLeaveCommand}" 
+                        Style="{StaticResource SuccessButton}"/>
+            </Grid>
+        </Border>
+
+        <!-- DataGrid with ScrollViewer -->
+        <!-- Leave Requests Table -->
+        <Border Grid.Row="2" 
+        Background="#1E293B" 
+        BorderBrush="#475569" 
+        BorderThickness="1" 
+        CornerRadius="8"
+        Padding="5"
+        Margin="0,0,0,10">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" 
+                  HorizontalScrollBarVisibility="Disabled">
+
+
+                <DataGrid ItemsSource="{Binding LeaveRequests}" 
+                  SelectedItem="{Binding SelectedLeaveRequest}" 
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False" 
+                  IsReadOnly="True" 
+                  SelectionMode="Single"
+                  GridLinesVisibility="Horizontal"
+                  Background="Transparent"
+                  Foreground="#F8FAFC"
+                  BorderThickness="0"
+                  HorizontalGridLinesBrush="#334155"
+                  RowBackground="#1E293B"
+                  AlternatingRowBackground="#334155"
+                  HeadersVisibility="Column"
+                  ColumnHeaderStyle="{StaticResource ColumnHeaderStyle}"
+                  CellStyle="{StaticResource CellStyle}"
+                  RowStyle="{StaticResource RowStyle}"
+                  RowHeight="40">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding LeaveId}" Width="70"/>
+                        <DataGridTextColumn Header="Employee" Binding="{Binding EmployeeName}" Width="*" MinWidth="150"/>
+                        <DataGridTextColumn Header="Type" Binding="{Binding LeaveType}" Width="120"/>
+                        <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate, StringFormat=dd/MM/yyyy}" Width="110"/>
+                        <DataGridTextColumn Header="End Date" Binding="{Binding EndDate, StringFormat=dd/MM/yyyy}" Width="110"/>
+                        <DataGridTextColumn Header="Days" Binding="{Binding Duration}" Width="70"/>
+                        <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="100">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="Text" Value="Pending">
+                                            <Setter Property="Foreground" Value="#F59E0B"/>
+                                        </Trigger>
+                                        <Trigger Property="Text" Value="Approved">
+                                            <Setter Property="Foreground" Value="#10B981"/>
+                                        </Trigger>
+                                        <Trigger Property="Text" Value="Rejected">
+                                            <Setter Property="Foreground" Value="#EF4444"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Applied On" Binding="{Binding RequestDate, StringFormat=dd/MM/yyyy}" Width="110"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </ScrollViewer>
+        </Border>
+
+        <!-- Details Section -->
+        <!-- Details Section -->
+        <Border Grid.Row="3" 
+        Background="#334155" 
+        BorderBrush="#475569" 
+        BorderThickness="1" 
+        CornerRadius="8"
+        Padding="15"
+        Margin="0,10,0,0">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" 
+                       Text="Selected Leave Details" 
+                       FontWeight="Bold" 
+                       FontSize="16" 
+                       Foreground="#F8FAFC"
+                       Margin="0,0,0,10"/>
+                    <Grid Grid.Row="1" Margin="0,0,0,15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock FontSize="13">
+                        <Run Text="Employee: " FontWeight="Bold" Foreground="#CBD5E1"/>
+                        <Run Text="{Binding SelectedLeaveRequest.EmployeeName, Mode=OneWay, FallbackValue='N/A'}" Foreground="#F8FAFC"/>
+                        <Run Text=" (ID: " Foreground="#94A3B8"/>
+                        <Run Text="{Binding SelectedLeaveRequest.EmployeeId, Mode=OneWay, FallbackValue='N/A'}" Foreground="#94A3B8"/>
+                        <Run Text=")" Foreground="#94A3B8"/>
+                            </TextBlock>
+                            <TextBlock Margin="0,5,0,0" FontSize="13">
+                        <Run Text="Type: " FontWeight="Bold" Foreground="#CBD5E1"/>
+                        <Run Text="{Binding SelectedLeaveRequest.LeaveType, Mode=OneWay, FallbackValue='N/A'}" Foreground="#F8FAFC"/>
+                            </TextBlock>
+                            <TextBlock Margin="0,5,0,0" FontSize="13">
+                        <Run Text="Duration: " FontWeight="Bold" Foreground="#CBD5E1"/>
+                        <Run Text="{Binding SelectedLeaveRequest.StartDate, Mode=OneWay, StringFormat=dd/MM/yyyy, FallbackValue='N/A'}" Foreground="#F8FAFC"/>
+                        <Run Text=" to " Foreground="#94A3B8"/>
+                        <Run Text="{Binding SelectedLeaveRequest.EndDate, Mode=OneWay, StringFormat=dd/MM/yyyy, FallbackValue='N/A'}" Foreground="#F8FAFC"/>
+                        <Run Text=" (" Foreground="#94A3B8"/>
+                        <Run Text="{Binding SelectedLeaveRequest.Duration, Mode=OneWay, FallbackValue='0'}" Foreground="#F8FAFC"/>
+                        <Run Text=" days)" Foreground="#94A3B8"/>
+                            </TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock FontSize="13">
+                        <Run Text="Remarks: " FontWeight="Bold" Foreground="#CBD5E1"/>
+                        <Run Text="{Binding SelectedLeaveRequest.Remarks, Mode=OneWay, FallbackValue='N/A'}" Foreground="#F8FAFC"/>
+                            </TextBlock>
+                            <TextBlock Margin="0,5,0,0" FontSize="13">
+                        <Run Text="Applied On: " FontWeight="Bold" Foreground="#CBD5E1"/>
+                        <Run Text="{Binding SelectedLeaveRequest.RequestDate, Mode=OneWay, StringFormat=dd/MM/yyyy, FallbackValue='N/A'}" Foreground="#F8FAFC"/>
+                            </TextBlock>
+                            <TextBlock Margin="0,5,0,0" FontSize="13">
+                        <Run Text="Status: " FontWeight="Bold" Foreground="#CBD5E1"/>
+                        <Run Text="{Binding SelectedLeaveRequest.Status, Mode=OneWay, FallbackValue='N/A'}" Foreground="#F8FAFC"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Action Radio Buttons -->
+                        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                            <TextBlock Text="Action:" 
+                               FontWeight="Bold" 
+                               Foreground="#CBD5E1"
+                               FontSize="13"
+                               Margin="0,0,0,5"/>
+                            <StackPanel Orientation="Horizontal">
+                                <RadioButton Content="Approve" 
+                                     IsChecked="{Binding IsApproveSelected}" 
+                                     Margin="0,0,20,0" 
+                                     GroupName="Action"
+                                     Style="{StaticResource DarkRadioButton}"/>
+                                <RadioButton Content="Reject" 
+                                     IsChecked="{Binding IsRejectSelected}" 
+                                     GroupName="Action"
+                                     Style="{StaticResource DarkRadioButton}"/>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <!-- Admin Remarks and Button Side by Side -->
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0" Margin="0,0,15,0">
+                                <TextBlock Text="Admin Remarks:" 
+                                   Foreground="#CBD5E1"
+                                   FontSize="13"
+                                   Margin="0,0,0,5"/>
+                                <TextBox Text="{Binding AdminRemarks, UpdateSourceTrigger=PropertyChanged}" 
+                                 Height="60" 
+                                 TextWrapping="Wrap" 
+                                 AcceptsReturn="True" 
+                                 VerticalScrollBarVisibility="Auto" 
+                                 Style="{StaticResource DarkTextBox}"/>
+                            </StackPanel>
+
+                            <Button Grid.Column="1" 
+                            Content="Confirm Action" 
+                            Width="130" 
+                            Height="60" 
+                            VerticalAlignment="Bottom"
+                            Command="{Binding ConfirmActionCommand}" 
+                            Style="{StaticResource PrimaryButton}"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,20 @@
+﻿Employee Management System
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\
+Employee_Management_System
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Projects\Employee Management System\App.xaml
+131165091518
+
+431398386950
+217-376014604
+MainWindow.xaml;UserControls\AddEditEmployeeWindow.xaml;UserControls\AttendanceManagement.xaml;UserControls\EmployeeAttendanceControl.xaml;UserControls\EmployeeManagement.xaml;UserControls\LeaveManagement.xaml;UserControls\MyAttendanceControl.xaml;UserControls\Reports.xaml;Views\AdminDashboard.xaml;Views\ApplyLeaveWindow.xaml;Views\EmployeeProfile.xaml;Views\LoginWindow.xaml;Views\MyLeavesWindow.xaml;
+
+True
+

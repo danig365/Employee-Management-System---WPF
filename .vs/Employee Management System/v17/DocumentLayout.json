@@ -1,0 +1,704 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Employee Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\employeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\employeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\employeeprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\employeeprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\reports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\reports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\leavemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\leavemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\leavemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\leavemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\attendancemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\attendancemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\admindashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\admindashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\employeeattendancecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\employeeattendancecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\addeditemployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\addeditemployeewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\employeeattendancecontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\employeeattendancecontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\employeeprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\employeeprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\admindashboard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\admindashboard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\services\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:services\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\services\\employeemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:services\\employeemanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\viewmodels\\leavemanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:viewmodels\\leavemanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\services\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:services\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\reports.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\reports.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\models\\leavesummaryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:models\\leavesummaryreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\models\\monthlyattendancereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:models\\monthlyattendancereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\viewmodels\\applyleaveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:viewmodels\\applyleaveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\applyleavewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\applyleavewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\applyleavewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\applyleavewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\myleaveswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\myleaveswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\views\\myleaveswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:views\\myleaveswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\viewmodels\\myleavesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:viewmodels\\myleavesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\models\\leaverequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:models\\leaverequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\viewmodels\\attendancemanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:viewmodels\\attendancemanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\attendancemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\attendancemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\viewmodels\\employeemanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:viewmodels\\employeemanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\viewmodels\\addeditemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:viewmodels\\addeditemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\usercontrols\\employeemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:usercontrols\\employeemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|c:\\projects\\employee management system\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D796266-3064-4317-93BC-E37F4F73F1F4}|Employee Management System.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Projects\\Employee Management System\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-30T09:56:36.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-30T10:13:52.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T04:38:34.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeProfile.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\EmployeeProfile.xaml",
+              "RelativeDocumentMoniker": "Views\\EmployeeProfile.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\EmployeeProfile.xaml",
+              "RelativeToolTip": "Views\\EmployeeProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T04:45:54.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeaveManagement.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\LeaveManagement.xaml",
+              "RelativeDocumentMoniker": "UserControls\\LeaveManagement.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\LeaveManagement.xaml",
+              "RelativeToolTip": "UserControls\\LeaveManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-27T05:55:46.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeManagement.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\EmployeeManagement.xaml",
+              "RelativeDocumentMoniker": "UserControls\\EmployeeManagement.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\EmployeeManagement.xaml",
+              "RelativeToolTip": "UserControls\\EmployeeManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T11:49:56.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeaveManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\LeaveManagement.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\LeaveManagement.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\LeaveManagement.xaml.cs",
+              "RelativeToolTip": "UserControls\\LeaveManagement.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:29:55.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:06:58.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminDashboard.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\AdminDashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminDashboard.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\AdminDashboard.xaml",
+              "RelativeToolTip": "Views\\AdminDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T04:26:10.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddEditEmployeeWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\AddEditEmployeeWindow.xaml",
+              "RelativeDocumentMoniker": "UserControls\\AddEditEmployeeWindow.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\AddEditEmployeeWindow.xaml",
+              "RelativeToolTip": "UserControls\\AddEditEmployeeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T04:46:06.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reports.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\Reports.xaml",
+              "RelativeDocumentMoniker": "UserControls\\Reports.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\Reports.xaml",
+              "RelativeToolTip": "UserControls\\Reports.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-27T10:01:13.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttendanceManagement.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\AttendanceManagement.xaml",
+              "RelativeDocumentMoniker": "UserControls\\AttendanceManagement.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\AttendanceManagement.xaml",
+              "RelativeToolTip": "UserControls\\AttendanceManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-23T09:47:51.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeAttendanceControl.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\EmployeeAttendanceControl.xaml",
+              "RelativeDocumentMoniker": "UserControls\\EmployeeAttendanceControl.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\EmployeeAttendanceControl.xaml",
+              "RelativeToolTip": "UserControls\\EmployeeAttendanceControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T05:13:27.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeAttendanceControl.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\EmployeeAttendanceControl.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\EmployeeAttendanceControl.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\EmployeeAttendanceControl.xaml.cs",
+              "RelativeToolTip": "UserControls\\EmployeeAttendanceControl.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T04:49:43.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeeProfile.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\EmployeeProfile.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\EmployeeProfile.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\EmployeeProfile.xaml.cs",
+              "RelativeToolTip": "Views\\EmployeeProfile.xaml.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAALEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T04:46:19.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeManagementService.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Services\\EmployeeManagementService.cs",
+              "RelativeDocumentMoniker": "Services\\EmployeeManagementService.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Services\\EmployeeManagementService.cs",
+              "RelativeToolTip": "Services\\EmployeeManagementService.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAAANwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T06:23:20.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\AdminDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminDashboard.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\AdminDashboard.xaml.cs",
+              "RelativeToolTip": "Views\\AdminDashboard.xaml.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAxwLoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T10:39:20.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LeaveService.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Services\\LeaveService.cs",
+              "RelativeDocumentMoniker": "Services\\LeaveService.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Services\\LeaveService.cs",
+              "RelativeToolTip": "Services\\LeaveService.cs",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAAwCABAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T06:14:50.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LeaveManagementViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\ViewModels\\LeaveManagementViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LeaveManagementViewModel.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\ViewModels\\LeaveManagementViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LeaveManagementViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T06:15:30.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Services\\SessionManager.cs",
+              "RelativeDocumentMoniker": "Services\\SessionManager.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Services\\SessionManager.cs",
+              "RelativeToolTip": "Services\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:16:51.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LeaveSummaryReport.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Models\\LeaveSummaryReport.cs",
+              "RelativeDocumentMoniker": "Models\\LeaveSummaryReport.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Models\\LeaveSummaryReport.cs",
+              "RelativeToolTip": "Models\\LeaveSummaryReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:58:31.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Services\\ReportService.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Services\\ReportService.cs",
+              "RelativeToolTip": "Services\\ReportService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:58:55.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Reports.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\Reports.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\Reports.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\Reports.xaml.cs",
+              "RelativeToolTip": "UserControls\\Reports.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T10:01:44.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MonthlyAttendanceReport.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Models\\MonthlyAttendanceReport.cs",
+              "RelativeDocumentMoniker": "Models\\MonthlyAttendanceReport.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Models\\MonthlyAttendanceReport.cs",
+              "RelativeToolTip": "Models\\MonthlyAttendanceReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:58:09.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplyLeaveWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\ApplyLeaveWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ApplyLeaveWindow.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\ApplyLeaveWindow.xaml.cs",
+              "RelativeToolTip": "Views\\ApplyLeaveWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:28:55.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:06:34.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplyLeaveViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\ViewModels\\ApplyLeaveViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ApplyLeaveViewModel.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\ViewModels\\ApplyLeaveViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ApplyLeaveViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T06:17:37.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplyLeaveWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\ApplyLeaveWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\ApplyLeaveWindow.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\ApplyLeaveWindow.xaml",
+              "RelativeToolTip": "Views\\ApplyLeaveWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-27T06:16:54.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MyLeavesWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\MyLeavesWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MyLeavesWindow.xaml",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\MyLeavesWindow.xaml",
+              "RelativeToolTip": "Views\\MyLeavesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-27T06:18:30.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MyLeavesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Views\\MyLeavesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MyLeavesWindow.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Views\\MyLeavesWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MyLeavesWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T06:42:42.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MyLeavesViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\ViewModels\\MyLeavesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MyLeavesViewModel.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\ViewModels\\MyLeavesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MyLeavesViewModel.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAcwGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T06:19:33.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LeaveRequests.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Models\\LeaveRequests.cs",
+              "RelativeDocumentMoniker": "Models\\LeaveRequests.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Models\\LeaveRequests.cs",
+              "RelativeToolTip": "Models\\LeaveRequests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T06:13:25.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "Models\\Attendance.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Models\\Attendance.cs",
+              "RelativeToolTip": "Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:02:03.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AttendanceManagementViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\ViewModels\\AttendanceManagementViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AttendanceManagementViewModel.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\ViewModels\\AttendanceManagementViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AttendanceManagementViewModel.cs",
+              "ViewState": "AgIAADMCAAAAAAAAAIBQwEgCAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T09:59:35.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Projects\\Employee Management System\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-23T09:55:36.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NullToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Converters\\NullToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\NullToVisibilityConverter.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Converters\\NullToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\NullToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:28:09.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AttendanceManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\AttendanceManagement.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\AttendanceManagement.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\AttendanceManagement.xaml.cs",
+              "RelativeToolTip": "UserControls\\AttendanceManagement.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:15:40.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:57:57.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EmployeeManagementViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\ViewModels\\EmployeeManagementViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EmployeeManagementViewModel.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\ViewModels\\EmployeeManagementViewModel.cs",
+              "RelativeToolTip": "ViewModels\\EmployeeManagementViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:32:13.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AddEditEmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\ViewModels\\AddEditEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddEditEmployeeViewModel.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\ViewModels\\AddEditEmployeeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AddEditEmployeeViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBJwBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:06:01.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EmployeeManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\UserControls\\EmployeeManagement.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\EmployeeManagement.xaml.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\UserControls\\EmployeeManagement.xaml.cs",
+              "RelativeToolTip": "UserControls\\EmployeeManagement.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:41:01.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:36:07.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Projects\\Employee Management System\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Projects\\Employee Management System\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:04:25.856Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

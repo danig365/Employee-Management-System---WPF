@@ -1,0 +1,97 @@
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Employee Management System.exe
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Employee Management System.dll.config
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Employee Management System.deps.json
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Employee Management System.runtimeconfig.json
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Employee Management System.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Employee Management System.pdb
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Projects\Employee Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.csproj.AssemblyReference.cache
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\AddEditEmployeeWindow.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\AttendanceManagement.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\EmployeeManagement.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\LeaveManagement.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\AdminDashboard.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\ApplyLeaveWindow.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\EmployeeProfile.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\LoginWindow.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\MyLeavesWindow.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\App.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System_MarkupCompile.cache
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System_MarkupCompile.lref
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\App.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\AddEditEmployeeWindow.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\AttendanceManagement.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\EmployeeManagement.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\LeaveManagement.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\AdminDashboard.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\ApplyLeaveWindow.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\EmployeeProfile.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\LoginWindow.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Views\MyLeavesWindow.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.g.resources
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.AssemblyInfoInputs.cache
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.AssemblyInfo.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.csproj.CoreCompileInputs.cache
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee.861BF793.Up2Date
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.dll
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\refint\Employee Management System.dll
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.pdb
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.genruntimeconfig.cache
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\ref\Employee Management System.dll
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\Reports.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\Reports.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\EmployeeAttendanceControl.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\MyAttendanceControl.baml
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\EmployeeAttendanceControl.g.cs
+C:\Projects\Employee Management System\obj\Debug\net8.0-windows\UserControls\MyAttendanceControl.g.cs
